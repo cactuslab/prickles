@@ -17,8 +17,8 @@ public enum LaunchArguments: String {
 
 open class PrickleTestCase: XCTestCase {
     
-    var launchEnvironment = [String: String]()
-    var launchArguments = [String]()
+    public var launchEnvironment = [String: String]()
+    public var launchArguments = [String]()
     
     private static var testCaseSetup = Set<String>()
     
