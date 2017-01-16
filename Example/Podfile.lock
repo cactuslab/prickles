@@ -1,0 +1,16 @@
+PODS:
+  - Prickles (0.1.0)
+
+DEPENDENCIES:
+  - Prickles (from `../`)
+
+EXTERNAL SOURCES:
+  Prickles:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Prickles: c2c7480a705f3bbf4d223eae2ce0c5015f54989b
+
+PODFILE CHECKSUM: 6e308bcff8072ba4a67aa351a85269751b0fbb81
+
+COCOAPODS: 1.1.1
