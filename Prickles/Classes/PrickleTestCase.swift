@@ -8,21 +8,21 @@
 
 import XCTest
 
-enum LaunchArguments: String {
+open enum LaunchArguments: String {
     case cleanApplicationSupport = "CleanApplicationSupport"  /// This flag causes the ApplicationSupport folder (which contains all of the cached data files for a store) to be cleared upon launch
     case cleanUserDefaults = "CleanUserDefaults"  /// This flag clears the user defaults on launch (User defaults contain all sorts of information on which store is logged in and the current feature flags)
     case cleanKeychain = "CleanKeychain" /// This flag clears all keychain stored properties on launch.
     case uiTests = "UITests" /// This flag is to tell the running application that it is running in UITest mode
 }
 
-class PrickleTestCase: XCTestCase {
+open class PrickleTestCase: XCTestCase {
     
     var launchEnvironment = [String: String]()
     var launchArguments = [String]()
     
     private static var testCaseSetup = Set<String>()
     
-    override func setUp() {
+    override open func setUp() {
         super.setUp()
         
         continueAfterFailure = false
@@ -56,44 +56,44 @@ class PrickleTestCase: XCTestCase {
         beforeTest()
     }
     
-    override func tearDown() {
+    override open func tearDown() {
         super.tearDown()
     }
     
     /** Configure the launch environment to contain all of the keys you need for authentication */
-    func setupLogin() {
+    open func setupLogin() {
     
     }
     
     /** Set up the test case. Called before the app is launched. You should call `super.setUpTestCase()` somewhere in your implementation */
-    func setUpTestCase() {
+    open func setUpTestCase() {
         if !shouldResetApplicationForEachTest() {
             setupApplicationReset()
         }
     }
     
     /** Set up the test. Called before the app is launched. */
-    func setUpTest() {
+    open func setUpTest() {
         
     }
     
     /** Called before the first test in a test case. Called after the app is launched. */
-    func beforeTestCase() {
+    open func beforeTestCase() {
         
     }
     
     /** Called before each test in a test case. Called after the app is launched. */
-    func beforeTest() {
+    open func beforeTest() {
         
     }
     
     /** Called after each test is run. */
-    func afterTest() {
+    open func afterTest() {
         
     }
     
     /** Override this method to return `true` in test cases that require the application to be reset before each test. Defaults to `false` */
-    func shouldResetApplicationForEachTest() -> Bool {
+    open func shouldResetApplicationForEachTest() -> Bool {
         return false
     }
     

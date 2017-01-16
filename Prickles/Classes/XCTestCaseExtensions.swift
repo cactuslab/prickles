@@ -14,7 +14,7 @@ extension XCTestCase {
      
      - Note: This does not mean that the element is enabled, it simply means that the user can touch it
      */
-    func waitForHittable(element: XCUIElement, waitSeconds: Double, file: String = #file, line: UInt = #line) {
+    public func waitForHittable(element: XCUIElement, waitSeconds: Double, file: String = #file, line: UInt = #line) {
         waitForExpectation(element: element, expectation: "hittable == true", waitSeconds: waitSeconds, file: file, line: line)
     }
     
@@ -22,23 +22,23 @@ extension XCTestCase {
      
      - Note: This does not mean that the element is not enabled, it simply means that the user cannot touch it
      */
-    func waitForNotHittable(element: XCUIElement, waitSeconds: Double, file: String = #file, line: UInt = #line) {
+    public func waitForNotHittable(element: XCUIElement, waitSeconds: Double, file: String = #file, line: UInt = #line) {
         waitForExpectation(element: element, expectation: "hittable == false", waitSeconds: waitSeconds, file: file, line: line)
     }
     
-    func waitForExists(element: XCUIElement, waitSeconds: Double, file: String = #file, line: UInt = #line) {
+    public func waitForExists(element: XCUIElement, waitSeconds: Double, file: String = #file, line: UInt = #line) {
         waitForExpectation(element: element, expectation: "exists == true", waitSeconds: waitSeconds, file: file, line: line)
     }
     
-    func waitForNotExists(element: XCUIElement, waitSeconds: Double, file: String = #file, line: UInt = #line) {
+    public func waitForNotExists(element: XCUIElement, waitSeconds: Double, file: String = #file, line: UInt = #line) {
         waitForExpectation(element: element, expectation: "exists == false", waitSeconds: waitSeconds, file: file, line: line)
     }
     
-    func waitForEnabled(element: XCUIElement, waitSeconds: Double, file: String = #file, line: UInt = #line) {
+    public func waitForEnabled(element: XCUIElement, waitSeconds: Double, file: String = #file, line: UInt = #line) {
         waitForExpectation(element: element, expectation: "enabled == true", waitSeconds: waitSeconds, file: file, line: line)
     }
     
-    func waitForNotEnabled(element: XCUIElement, waitSeconds: Double, file: String = #file, line: UInt = #line) {
+    public func waitForNotEnabled(element: XCUIElement, waitSeconds: Double, file: String = #file, line: UInt = #line) {
         waitForExpectation(element: element, expectation: "enabled == false", waitSeconds: waitSeconds, file: file, line: line)
     }
     
@@ -52,7 +52,7 @@ extension XCTestCase {
      - file: An optional filename used when a failure is recorded
      - line: An optional line number used when a failure is recorded
      */
-    func waitForExpectation(element: XCUIElement, expectation expectationPredicate: String, waitSeconds: Double, file: String = #file, line: UInt = #line) {
+    public func waitForExpectation(element: XCUIElement, expectation expectationPredicate: String, waitSeconds: Double, file: String = #file, line: UInt = #line) {
         let predicate = NSPredicate(format: expectationPredicate)
         
         let _ = expectation(for: predicate, evaluatedWith: element, handler: nil)
