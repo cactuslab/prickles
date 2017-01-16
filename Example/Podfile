@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Prickles_Tests' do
+  pod 'Prickles', :path => '../'
+  
+  
+end
