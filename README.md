@@ -17,7 +17,7 @@ Prickles is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "Prickles"
+pod "Prickles", git: 'https://gitlab.dev.cactuslab.com/cactuslab/prickles.git'
 ```
 
 ## Author
