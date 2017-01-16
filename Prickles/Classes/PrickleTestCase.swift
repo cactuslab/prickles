@@ -8,7 +8,7 @@
 
 import XCTest
 
-open enum LaunchArguments: String {
+public enum LaunchArguments: String {
     case cleanApplicationSupport = "CleanApplicationSupport"  /// This flag causes the ApplicationSupport folder (which contains all of the cached data files for a store) to be cleared upon launch
     case cleanUserDefaults = "CleanUserDefaults"  /// This flag clears the user defaults on launch (User defaults contain all sorts of information on which store is logged in and the current feature flags)
     case cleanKeychain = "CleanKeychain" /// This flag clears all keychain stored properties on launch.
