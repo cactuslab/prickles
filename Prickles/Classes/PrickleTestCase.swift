@@ -58,6 +58,8 @@ open class PrickleTestCase: XCTestCase {
     
     override open func tearDown() {
         super.tearDown()
+        
+        afterTest()
     }
     
     /** Configure the launch environment to contain all of the keys you need for authentication */
