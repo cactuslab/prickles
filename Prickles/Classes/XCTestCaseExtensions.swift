@@ -8,7 +8,7 @@
 
 import XCTest
 
-extension XCTestCase {
+public extension XCTestCase {
     
     /** Wait for an element to be hittable, which is to say that it is onscreen and not being obscured.
      

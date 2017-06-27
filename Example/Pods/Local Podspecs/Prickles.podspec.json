@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of Prickles.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Prickles",
+  "homepage": "https://gitlab.dev.cactuslab.com/cactuslab/prickles.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Tom Carey": "tom@cactuslab.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Prickles.git",
+    "git": "https://gitlab.dev.cactuslab.com/cactuslab/prickles.git",
     "tag": "0.1.0"
   },
   "platforms": {

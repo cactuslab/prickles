@@ -8,7 +8,7 @@
 
 import XCTest
 
-extension XCUIElement {
+public extension XCUIElement {
     
     public func scrollTo(element: XCUIElement) {
         while !element.isVisible {
