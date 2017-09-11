@@ -10,13 +10,13 @@ import XCTest
 
 public extension XCUIElement {
     
-    public func scrollTo(element: XCUIElement) {
-        while !element.isVisible {
+    public func pr_scrollTo(element: XCUIElement) {
+        while !element.pr_isVisible {
             swipeUp()
         }
     }
     
-    public var isVisible: Bool {
+    public var pr_isVisible: Bool {
         let app = XCUIApplication()
         let window = app.windows.element(boundBy: 0)
         let _ = window.frame.contains(CGPoint(x: 1, y: 1)) // Force the UI cache to reload
