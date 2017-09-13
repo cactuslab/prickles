@@ -10,9 +10,14 @@ import XCTest
 
 public extension XCUIElement {
     
-    public func pr_scrollTo(element: XCUIElement) {
+    public func pr_scrollTo(element: XCUIElement, limit: Int = 30) {
+        var count = 0
         while !element.pr_isVisible {
             swipeUp()
+            count += 1
+            if count == limit {
+                return
+            }
         }
     }
     
