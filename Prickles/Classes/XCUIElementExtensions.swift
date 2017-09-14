@@ -24,7 +24,7 @@ public extension XCUIElement {
     public var pr_isVisible: Bool {
         let app = XCUIApplication()
         let window = app.windows.element(boundBy: 0)
-        let _ = window.frame.contains(CGPoint(x: 1, y: 1)) // Force the UI cache to reload
+        let _ = window.frame.contains(CGRect(x: 1, y: 1, width: 1, height: 1)) // Force the UI cache to reload
         
         if self.exists && !self.frame.isEmpty {
             return window.frame.contains(self.frame)
