@@ -1,6 +1,6 @@
 {
   "name": "Prickles",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "summary": "A short description of Prickles.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://gitlab.dev.cactuslab.com/cactuslab/prickles.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://gitlab.dev.cactuslab.com/cactuslab/prickles.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "9.0"
