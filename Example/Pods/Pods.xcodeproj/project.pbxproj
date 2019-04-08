@@ -7,205 +7,237 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C91941F33C0D41868E35D1AC0D93B95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
-		21E4E0FC31BB0011B795E80F82AB9EF0 /* XCTestCaseExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3323F5426C8294B40F8422516F4C8B /* XCTestCaseExtensions.swift */; };
-		4296DA99D5049A5C51CB0D598B115A41 /* XCUIElementExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125CA1F05956C94F96AEB52B22E9404 /* XCUIElementExtensions.swift */; };
-		4D5568DCA0FE465B0B0B7048D5A0FE0A /* Prickles-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2846471BF4BC0982FBE6478D8079DC47 /* Prickles-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71F3B56FB2CD61A2FCBD26A5C17DB9FA /* Prickles-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E1D4146204B83F2BF5F5BC03002F01 /* Prickles-dummy.m */; };
-		760D6190AB278F2E48B08555644A7CA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
-		794EFDECDBECD99B0B2D73A2BE1DDA41 /* PrickleTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805B060D224BA268BDF97EC859E8E098 /* PrickleTestCase.swift */; };
-		8AB8E7271563914EF93121B200C6E19E /* XCUIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B5A2A773E542B0D54505718F0C4FC /* XCUIApplicationExtensions.swift */; };
-		9464064E6EA9E79CB69B15A561FF49C7 /* Pods-Prickles_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34593063497A1A896F560D06D645877F /* Pods-Prickles_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACD0821AB008D116AE55627118303212 /* Pods-Prickles_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 303CFBECD2100F2F061A6461E07A42C2 /* Pods-Prickles_Tests-dummy.m */; };
-		CFB85872E703AD6CE80891A63E484D77 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */; };
+		0CF41B0DA811EACC39EB7F105F4CD65A /* Pods-Prickles_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE40BF63E12CB68648D8AF8229ECCB0A /* Pods-Prickles_Tests-dummy.m */; };
+		11F27E344F27BF720AEB43261BA512E5 /* Pods-Prickles_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA10938CDB5F7803429FB3FA7167879A /* Pods-Prickles_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B3846F93416BFE0A8C3979046588BD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE92ABC2F7B9A21F56722990F2D34E1 /* Foundation.framework */; };
+		3DEABCABA97C0B64F237C8836E9B3BC6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD98DB8C1AA8E2390412D61DB64864D /* XCTest.framework */; };
+		42E4D20CF19D411FD951C4C8D1202DEB /* XCUIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A619185C9ED4841D35454DCEDF74537 /* XCUIApplicationExtensions.swift */; };
+		7999813A1AE95D4484594E84BD489599 /* PrickleTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221CC12C6608285D5EF2FA14EBD9546 /* PrickleTestCase.swift */; };
+		8556077DF104ABC8EA34C06DB23D6390 /* XCUIElementExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66616F05210DE7A56CCE4951591F800A /* XCUIElementExtensions.swift */; };
+		9768ABF3EF5F7C78AB1626D43ECFC439 /* Prickles-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F91AC5A6CC81D204B7BB32B3A321A675 /* Prickles-dummy.m */; };
+		D25485DA70D56D9EF6607D837FB280E2 /* Prickles-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C9F8A8DE68A7E6840DABF88E4F5F20 /* Prickles-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA57C81AECB8B17C9E7DB1CB844954F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE92ABC2F7B9A21F56722990F2D34E1 /* Foundation.framework */; };
+		FE8C70A9188590049DE234413E243BE0 /* XCTestCaseExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272ED66F4FC1FB6BFB670ECC6A628CD /* XCTestCaseExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A9C39BC32AE7C3635B223B0F16883A1 /* PBXContainerItemProxy */ = {
+		4ED78B4054889D8149FCEEAAD1FAFF74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0615F8923D755B29FD17989FE73C213C;
+			remoteGlobalIDString = 56D2FD0CBC1B430391D8B84EF320C93F;
 			remoteInfo = Prickles;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014B5A2A773E542B0D54505718F0C4FC /* XCUIApplicationExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCUIApplicationExtensions.swift; path = Prickles/Classes/XCUIApplicationExtensions.swift; sourceTree = "<group>"; };
-		15AC9433A1BCBC40C8374A59C0DDA9B4 /* Pods-Prickles_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Prickles_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		208A5B51DD451B4598E6351893CB0F02 /* Prickles.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Prickles.modulemap; sourceTree = "<group>"; };
-		2846471BF4BC0982FBE6478D8079DC47 /* Prickles-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prickles-umbrella.h"; sourceTree = "<group>"; };
-		303CFBECD2100F2F061A6461E07A42C2 /* Pods-Prickles_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Prickles_Tests-dummy.m"; sourceTree = "<group>"; };
-		34593063497A1A896F560D06D645877F /* Pods-Prickles_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Prickles_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3F4C916C49379AC2A984EA7FE3E5D642 /* Prickles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Prickles.framework; path = Prickles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3FDF84AF3A0DD68316BFF2C7E86DA6AF /* Pods-Prickles_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prickles_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		407CFB2C101F1DAE0CD865D686302604 /* Pods-Prickles_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prickles_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		489A23C55E22103871E9A7D4E900774D /* Pods-Prickles_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Prickles_Tests.modulemap"; sourceTree = "<group>"; };
-		5DACBEA4D4B2D88B0DA93FDB38465AED /* Pods_Prickles_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Prickles_Tests.framework; path = "Pods-Prickles_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F3323F5426C8294B40F8422516F4C8B /* XCTestCaseExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCTestCaseExtensions.swift; path = Prickles/Classes/XCTestCaseExtensions.swift; sourceTree = "<group>"; };
-		732E5229A4A3F2070A74E2F340878E13 /* Pods-Prickles_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Prickles_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7E077B52CDBC684437470FBD15A932DB /* Pods-Prickles_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Prickles_Tests-resources.sh"; sourceTree = "<group>"; };
-		805B060D224BA268BDF97EC859E8E098 /* PrickleTestCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrickleTestCase.swift; path = Prickles/Classes/PrickleTestCase.swift; sourceTree = "<group>"; };
-		80B81E2AAFEA5E50EFA511BE23B4A7F3 /* Prickles.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Prickles.xcconfig; sourceTree = "<group>"; };
-		8125CA1F05956C94F96AEB52B22E9404 /* XCUIElementExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCUIElementExtensions.swift; path = Prickles/Classes/XCUIElementExtensions.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		963BD7D006C026D4CA04AB2987C46C87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0E1D4146204B83F2BF5F5BC03002F01 /* Prickles-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Prickles-dummy.m"; sourceTree = "<group>"; };
-		A76946ACBD96E93DC8635A7DDC447594 /* Pods-Prickles_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Prickles_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D2C06B2ECF252BC1D0C6406B889B6A6F /* Prickles-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prickles-prefix.pch"; sourceTree = "<group>"; };
-		E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FDFB87495B6BE5AB1C0F0951D9040496 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290FCCB6074A8BF694DF76F47AE3E3C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2F71D14DFE1103A9617EFB59504657E3 /* Prickles-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prickles-prefix.pch"; sourceTree = "<group>"; };
+		3A619185C9ED4841D35454DCEDF74537 /* XCUIApplicationExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCUIApplicationExtensions.swift; path = Prickles/Classes/XCUIApplicationExtensions.swift; sourceTree = "<group>"; };
+		3E30BC8DF9EECA3D265978B4083E529C /* Pods_Prickles_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prickles_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66616F05210DE7A56CCE4951591F800A /* XCUIElementExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCUIElementExtensions.swift; path = Prickles/Classes/XCUIElementExtensions.swift; sourceTree = "<group>"; };
+		6773DA548616D12DFD9B5FED7BC97725 /* Prickles.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Prickles.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		692E25E947237000819898A3861F1B19 /* Pods-Prickles_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prickles_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		69E9B71337FEFE86D6E1A095894D2F68 /* Pods-Prickles_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Prickles_Tests.modulemap"; sourceTree = "<group>"; };
+		6FD98DB8C1AA8E2390412D61DB64864D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		81AB0FE3E2C5D550715750C05EEE9A5E /* Pods-Prickles_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Prickles_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0DD66479BE5FF3ECA2D82A04BC93BB /* Pods-Prickles_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Prickles_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A221CC12C6608285D5EF2FA14EBD9546 /* PrickleTestCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrickleTestCase.swift; path = Prickles/Classes/PrickleTestCase.swift; sourceTree = "<group>"; };
+		B1B4E66CFB4039849345E69AE2E5EA14 /* Prickles.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Prickles.modulemap; sourceTree = "<group>"; };
+		BE40BF63E12CB68648D8AF8229ECCB0A /* Pods-Prickles_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Prickles_Tests-dummy.m"; sourceTree = "<group>"; };
+		C1BC99DAB8BA7FCCEC375E58C875536C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C1C9F8A8DE68A7E6840DABF88E4F5F20 /* Prickles-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prickles-umbrella.h"; sourceTree = "<group>"; };
+		CB693B9AE5C2C1408F27598EE8287537 /* Pods-Prickles_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prickles_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDE92ABC2F7B9A21F56722990F2D34E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D04321F24F1AE00879E55908B080A627 /* Prickles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prickles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA10938CDB5F7803429FB3FA7167879A /* Pods-Prickles_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Prickles_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DF27F36982EAE445CE7ED692FCDF0630 /* Prickles-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Prickles-Info.plist"; sourceTree = "<group>"; };
+		E272ED66F4FC1FB6BFB670ECC6A628CD /* XCTestCaseExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCTestCaseExtensions.swift; path = Prickles/Classes/XCTestCaseExtensions.swift; sourceTree = "<group>"; };
+		EA372B5A532806459FB412EC991BAF1A /* Prickles.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Prickles.xcconfig; sourceTree = "<group>"; };
+		F91AC5A6CC81D204B7BB32B3A321A675 /* Prickles-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Prickles-dummy.m"; sourceTree = "<group>"; };
+		FD4AED2CC6F6ECEE32E76F31B14092B8 /* Pods-Prickles_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Prickles_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF5F66519CAC509CA17691AA8F9A6075 /* Pods-Prickles_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Prickles_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		704C61D244F81DCFA3929A3B857EA712 /* Frameworks */ = {
+		20242A7954E8CEE8A1799C20BA5594B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				760D6190AB278F2E48B08555644A7CA5 /* Foundation.framework in Frameworks */,
-				CFB85872E703AD6CE80891A63E484D77 /* XCTest.framework in Frameworks */,
+				3B3846F93416BFE0A8C3979046588BD5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4E8CAB389292771DE81E81EFD09DA1A /* Frameworks */ = {
+		6AF566AD9DD2EAD6E765EFBBBFAABBB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C91941F33C0D41868E35D1AC0D93B95 /* Foundation.framework in Frameworks */,
+				EA57C81AECB8B17C9E7DB1CB844954F3 /* Foundation.framework in Frameworks */,
+				3DEABCABA97C0B64F237C8836E9B3BC6 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27E8CDD98336EAFECCF6912BD8C76126 /* Targets Support Files */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7A52B1F3F04A2B49F5C4C498B96FCA0 /* Pods-Prickles_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		35D7E6B31E465229E6DCD57EB88F0034 /* Prickles */ = {
-			isa = PBXGroup;
-			children = (
-				805B060D224BA268BDF97EC859E8E098 /* PrickleTestCase.swift */,
-				5F3323F5426C8294B40F8422516F4C8B /* XCTestCaseExtensions.swift */,
-				014B5A2A773E542B0D54505718F0C4FC /* XCUIApplicationExtensions.swift */,
-				8125CA1F05956C94F96AEB52B22E9404 /* XCUIElementExtensions.swift */,
-				CCDE15B1064E548A8988EB05ED9EB783 /* Support Files */,
-			);
-			name = Prickles;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		384619EBC7662285B8D9BCF176240CC3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5DACBEA4D4B2D88B0DA93FDB38465AED /* Pods_Prickles_Tests.framework */,
-				3F4C916C49379AC2A984EA7FE3E5D642 /* Prickles.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7BE34EE7067F7CC8A54539A282682749 /* iOS */,
+				B4A20DE51C57CCE6549A26D79F664F86 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6BD9352A1FC42A915EDF57074326C6C3 /* Development Pods */ = {
+		55232771EE78477078A519CD01FA4150 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35D7E6B31E465229E6DCD57EB88F0034 /* Prickles */,
+				E33CE0426C17685CDC76698174574208 /* Prickles */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7BE34EE7067F7CC8A54539A282682749 /* iOS */ = {
+		70973D49C139C316224B75781A79BECE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */,
-				3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */,
+				290FCCB6074A8BF694DF76F47AE3E3C9 /* LICENSE */,
+				6773DA548616D12DFD9B5FED7BC97725 /* Prickles.podspec */,
+				C1BC99DAB8BA7FCCEC375E58C875536C /* README.md */,
 			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		827CD3BBD458472348C3A363708C5228 /* Pods-Prickles_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6BD9352A1FC42A915EDF57074326C6C3 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				384619EBC7662285B8D9BCF176240CC3 /* Products */,
-				27E8CDD98336EAFECCF6912BD8C76126 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A7A52B1F3F04A2B49F5C4C498B96FCA0 /* Pods-Prickles_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				963BD7D006C026D4CA04AB2987C46C87 /* Info.plist */,
-				489A23C55E22103871E9A7D4E900774D /* Pods-Prickles_Tests.modulemap */,
-				732E5229A4A3F2070A74E2F340878E13 /* Pods-Prickles_Tests-acknowledgements.markdown */,
-				15AC9433A1BCBC40C8374A59C0DDA9B4 /* Pods-Prickles_Tests-acknowledgements.plist */,
-				303CFBECD2100F2F061A6461E07A42C2 /* Pods-Prickles_Tests-dummy.m */,
-				A76946ACBD96E93DC8635A7DDC447594 /* Pods-Prickles_Tests-frameworks.sh */,
-				7E077B52CDBC684437470FBD15A932DB /* Pods-Prickles_Tests-resources.sh */,
-				34593063497A1A896F560D06D645877F /* Pods-Prickles_Tests-umbrella.h */,
-				407CFB2C101F1DAE0CD865D686302604 /* Pods-Prickles_Tests.debug.xcconfig */,
-				3FDF84AF3A0DD68316BFF2C7E86DA6AF /* Pods-Prickles_Tests.release.xcconfig */,
+				69E9B71337FEFE86D6E1A095894D2F68 /* Pods-Prickles_Tests.modulemap */,
+				FD4AED2CC6F6ECEE32E76F31B14092B8 /* Pods-Prickles_Tests-acknowledgements.markdown */,
+				81AB0FE3E2C5D550715750C05EEE9A5E /* Pods-Prickles_Tests-acknowledgements.plist */,
+				BE40BF63E12CB68648D8AF8229ECCB0A /* Pods-Prickles_Tests-dummy.m */,
+				9E0DD66479BE5FF3ECA2D82A04BC93BB /* Pods-Prickles_Tests-frameworks.sh */,
+				FF5F66519CAC509CA17691AA8F9A6075 /* Pods-Prickles_Tests-Info.plist */,
+				DA10938CDB5F7803429FB3FA7167879A /* Pods-Prickles_Tests-umbrella.h */,
+				CB693B9AE5C2C1408F27598EE8287537 /* Pods-Prickles_Tests.debug.xcconfig */,
+				692E25E947237000819898A3861F1B19 /* Pods-Prickles_Tests.release.xcconfig */,
 			);
 			name = "Pods-Prickles_Tests";
 			path = "Target Support Files/Pods-Prickles_Tests";
 			sourceTree = "<group>";
 		};
-		CCDE15B1064E548A8988EB05ED9EB783 /* Support Files */ = {
+		8910F492535B8BA6453F85C0C8DEB3F5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FDFB87495B6BE5AB1C0F0951D9040496 /* Info.plist */,
-				208A5B51DD451B4598E6351893CB0F02 /* Prickles.modulemap */,
-				80B81E2AAFEA5E50EFA511BE23B4A7F3 /* Prickles.xcconfig */,
-				A0E1D4146204B83F2BF5F5BC03002F01 /* Prickles-dummy.m */,
-				D2C06B2ECF252BC1D0C6406B889B6A6F /* Prickles-prefix.pch */,
-				2846471BF4BC0982FBE6478D8079DC47 /* Prickles-umbrella.h */,
+				B1B4E66CFB4039849345E69AE2E5EA14 /* Prickles.modulemap */,
+				EA372B5A532806459FB412EC991BAF1A /* Prickles.xcconfig */,
+				F91AC5A6CC81D204B7BB32B3A321A675 /* Prickles-dummy.m */,
+				DF27F36982EAE445CE7ED692FCDF0630 /* Prickles-Info.plist */,
+				2F71D14DFE1103A9617EFB59504657E3 /* Prickles-prefix.pch */,
+				C1C9F8A8DE68A7E6840DABF88E4F5F20 /* Prickles-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Prickles";
 			sourceTree = "<group>";
 		};
+		B4A20DE51C57CCE6549A26D79F664F86 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CDE92ABC2F7B9A21F56722990F2D34E1 /* Foundation.framework */,
+				6FD98DB8C1AA8E2390412D61DB64864D /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BA7ED3B4A4F352225492D85830D95B97 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				827CD3BBD458472348C3A363708C5228 /* Pods-Prickles_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				55232771EE78477078A519CD01FA4150 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				EFDEBE3378935C882026B931FB7D2D8A /* Products */,
+				BA7ED3B4A4F352225492D85830D95B97 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E33CE0426C17685CDC76698174574208 /* Prickles */ = {
+			isa = PBXGroup;
+			children = (
+				A221CC12C6608285D5EF2FA14EBD9546 /* PrickleTestCase.swift */,
+				E272ED66F4FC1FB6BFB670ECC6A628CD /* XCTestCaseExtensions.swift */,
+				3A619185C9ED4841D35454DCEDF74537 /* XCUIApplicationExtensions.swift */,
+				66616F05210DE7A56CCE4951591F800A /* XCUIElementExtensions.swift */,
+				70973D49C139C316224B75781A79BECE /* Pod */,
+				8910F492535B8BA6453F85C0C8DEB3F5 /* Support Files */,
+			);
+			name = Prickles;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EFDEBE3378935C882026B931FB7D2D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E30BC8DF9EECA3D265978B4083E529C /* Pods_Prickles_Tests.framework */,
+				D04321F24F1AE00879E55908B080A627 /* Prickles.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6CCDFCA8126819EF6147D4683CB02161 /* Headers */ = {
+		B3E85F032D2D78543D9D8C314C18514F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9464064E6EA9E79CB69B15A561FF49C7 /* Pods-Prickles_Tests-umbrella.h in Headers */,
+				11F27E344F27BF720AEB43261BA512E5 /* Pods-Prickles_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82BE1636B4D541F8BCD9FE382E0863F7 /* Headers */ = {
+		C1CFB7EFCA0BBAF9D6CF801C43BE2F99 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D5568DCA0FE465B0B0B7048D5A0FE0A /* Prickles-umbrella.h in Headers */,
+				D25485DA70D56D9EF6607D837FB280E2 /* Prickles-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0615F8923D755B29FD17989FE73C213C /* Prickles */ = {
+		04301E12D77F3770BBEA82C59A549655 /* Pods-Prickles_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C50B290368A4A4EE9B3A70429B5AA03 /* Build configuration list for PBXNativeTarget "Prickles" */;
+			buildConfigurationList = C0433C53316F517906EB7747ECE6A251 /* Build configuration list for PBXNativeTarget "Pods-Prickles_Tests" */;
 			buildPhases = (
-				E49C9EB3FE9FF1A16558C9EC3326BFC2 /* Sources */,
-				704C61D244F81DCFA3929A3B857EA712 /* Frameworks */,
-				82BE1636B4D541F8BCD9FE382E0863F7 /* Headers */,
+				B3E85F032D2D78543D9D8C314C18514F /* Headers */,
+				1F3341832A6E72A9B2B88159BEC99A1B /* Sources */,
+				20242A7954E8CEE8A1799C20BA5594B2 /* Frameworks */,
+				A9B98B0DE1D857A7A3A8350F246DAF2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7B699E478599130F5715B3C8F68312 /* PBXTargetDependency */,
+			);
+			name = "Pods-Prickles_Tests";
+			productName = "Pods-Prickles_Tests";
+			productReference = 3E30BC8DF9EECA3D265978B4083E529C /* Pods_Prickles_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56D2FD0CBC1B430391D8B84EF320C93F /* Prickles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0BB58AB9D260F50D165A7861EB0F52 /* Build configuration list for PBXNativeTarget "Prickles" */;
+			buildPhases = (
+				C1CFB7EFCA0BBAF9D6CF801C43BE2F99 /* Headers */,
+				66B7B473D9A8346DADE292361A05AA93 /* Sources */,
+				6AF566AD9DD2EAD6E765EFBBBFAABBB7 /* Frameworks */,
+				99889BA38610A02AE96F1CD4D56F3482 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -213,156 +245,93 @@
 			);
 			name = Prickles;
 			productName = Prickles;
-			productReference = 3F4C916C49379AC2A984EA7FE3E5D642 /* Prickles.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F14306D0064CFBA95276B7E031FF6556 /* Pods-Prickles_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D50565140F8AFBC7F94DCAB884C5B4DB /* Build configuration list for PBXNativeTarget "Pods-Prickles_Tests" */;
-			buildPhases = (
-				A903B669F344D9831497714F02EEC7C1 /* Sources */,
-				B4E8CAB389292771DE81E81EFD09DA1A /* Frameworks */,
-				6CCDFCA8126819EF6147D4683CB02161 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C133164BCDE057D7159C72225A252EF5 /* PBXTargetDependency */,
-			);
-			name = "Pods-Prickles_Tests";
-			productName = "Pods-Prickles_Tests";
-			productReference = 5DACBEA4D4B2D88B0DA93FDB38465AED /* Pods_Prickles_Tests.framework */;
+			productReference = D04321F24F1AE00879E55908B080A627 /* Prickles.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					56D2FD0CBC1B430391D8B84EF320C93F = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 384619EBC7662285B8D9BCF176240CC3 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EFDEBE3378935C882026B931FB7D2D8A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F14306D0064CFBA95276B7E031FF6556 /* Pods-Prickles_Tests */,
-				0615F8923D755B29FD17989FE73C213C /* Prickles */,
+				04301E12D77F3770BBEA82C59A549655 /* Pods-Prickles_Tests */,
+				56D2FD0CBC1B430391D8B84EF320C93F /* Prickles */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		A903B669F344D9831497714F02EEC7C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		99889BA38610A02AE96F1CD4D56F3482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD0821AB008D116AE55627118303212 /* Pods-Prickles_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E49C9EB3FE9FF1A16558C9EC3326BFC2 /* Sources */ = {
+		A9B98B0DE1D857A7A3A8350F246DAF2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F3341832A6E72A9B2B88159BEC99A1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71F3B56FB2CD61A2FCBD26A5C17DB9FA /* Prickles-dummy.m in Sources */,
-				794EFDECDBECD99B0B2D73A2BE1DDA41 /* PrickleTestCase.swift in Sources */,
-				21E4E0FC31BB0011B795E80F82AB9EF0 /* XCTestCaseExtensions.swift in Sources */,
-				8AB8E7271563914EF93121B200C6E19E /* XCUIApplicationExtensions.swift in Sources */,
-				4296DA99D5049A5C51CB0D598B115A41 /* XCUIElementExtensions.swift in Sources */,
+				0CF41B0DA811EACC39EB7F105F4CD65A /* Pods-Prickles_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B7B473D9A8346DADE292361A05AA93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9768ABF3EF5F7C78AB1626D43ECFC439 /* Prickles-dummy.m in Sources */,
+				7999813A1AE95D4484594E84BD489599 /* PrickleTestCase.swift in Sources */,
+				FE8C70A9188590049DE234413E243BE0 /* XCTestCaseExtensions.swift in Sources */,
+				42E4D20CF19D411FD951C4C8D1202DEB /* XCUIApplicationExtensions.swift in Sources */,
+				8556077DF104ABC8EA34C06DB23D6390 /* XCUIElementExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C133164BCDE057D7159C72225A252EF5 /* PBXTargetDependency */ = {
+		CF7B699E478599130F5715B3C8F68312 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Prickles;
-			target = 0615F8923D755B29FD17989FE73C213C /* Prickles */;
-			targetProxy = 9A9C39BC32AE7C3635B223B0F16883A1 /* PBXContainerItemProxy */;
+			target = 56D2FD0CBC1B430391D8B84EF320C93F /* Prickles */;
+			targetProxy = 4ED78B4054889D8149FCEEAAD1FAFF74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1DEE855C2CFCE319FB5444C0DA70EA0F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 407CFB2C101F1DAE0CD865D686302604 /* Pods-Prickles_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Prickles_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Prickles_Tests/Pods-Prickles_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Prickles_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1F94B197F5E2AFB2667448D076F31815 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FDF84AF3A0DD68316BFF2C7E86DA6AF /* Pods-Prickles_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Prickles_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Prickles_Tests/Pods-Prickles_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Prickles_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,10 +341,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -383,6 +354,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -391,94 +363,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		98A78D2A8AC2AAF21A00B22ABC1A8E17 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80B81E2AAFEA5E50EFA511BE23B4A7F3 /* Prickles.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Prickles/Prickles-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Prickles/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Prickles/Prickles.modulemap";
-				PRODUCT_NAME = Prickles;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -499,19 +383,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		CBD1CDC02601A6D129D0D3F900213B91 /* Debug */ = {
+		9E495DB7B0FEF76E16D577197FDA4F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80B81E2AAFEA5E50EFA511BE23B4A7F3 /* Prickles.xcconfig */;
+			baseConfigurationReference = EA372B5A532806459FB412EC991BAF1A /* Prickles.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -523,54 +409,212 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Prickles/Prickles-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Prickles/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Prickles/Prickles-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Prickles/Prickles.modulemap";
+				PRODUCT_MODULE_NAME = Prickles;
 				PRODUCT_NAME = Prickles;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D1BA2C1DB0E84764F605740E15ADCC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB693B9AE5C2C1408F27598EE8287537 /* Pods-Prickles_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Prickles_Tests/Pods-Prickles_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Prickles_Tests/Pods-Prickles_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE719A0F4C70C44C11AC99C567CE3FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 692E25E947237000819898A3861F1B19 /* Pods-Prickles_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Prickles_Tests/Pods-Prickles_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Prickles_Tests/Pods-Prickles_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD5A205C960C24134BEC2FD566E85AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA372B5A532806459FB412EC991BAF1A /* Prickles.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Prickles/Prickles-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Prickles/Prickles-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Prickles/Prickles.modulemap";
+				PRODUCT_MODULE_NAME = Prickles;
+				PRODUCT_NAME = Prickles;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
-				6F9224530522DD3C735EC96CF142642E /* Release */,
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C50B290368A4A4EE9B3A70429B5AA03 /* Build configuration list for PBXNativeTarget "Prickles" */ = {
+		AF0BB58AB9D260F50D165A7861EB0F52 /* Build configuration list for PBXNativeTarget "Prickles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBD1CDC02601A6D129D0D3F900213B91 /* Debug */,
-				98A78D2A8AC2AAF21A00B22ABC1A8E17 /* Release */,
+				9E495DB7B0FEF76E16D577197FDA4F47 /* Debug */,
+				FD5A205C960C24134BEC2FD566E85AD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D50565140F8AFBC7F94DCAB884C5B4DB /* Build configuration list for PBXNativeTarget "Pods-Prickles_Tests" */ = {
+		C0433C53316F517906EB7747ECE6A251 /* Build configuration list for PBXNativeTarget "Pods-Prickles_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DEE855C2CFCE319FB5444C0DA70EA0F /* Debug */,
-				1F94B197F5E2AFB2667448D076F31815 /* Release */,
+				D1BA2C1DB0E84764F605740E15ADCC8E /* Debug */,
+				EE719A0F4C70C44C11AC99C567CE3FDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
