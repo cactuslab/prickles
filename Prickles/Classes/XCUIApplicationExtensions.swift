@@ -10,7 +10,7 @@ import XCTest
 
 public extension XCUIApplication {
     
-    public func reloadData() {
+    func reloadData() {
         /* Asking for the count of a query is a magical way to refresh the accessibilty data */
         _ = self.buttons.count
     }
